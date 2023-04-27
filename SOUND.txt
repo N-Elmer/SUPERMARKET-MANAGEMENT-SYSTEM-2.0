@@ -1,0 +1,8 @@
+Private Declare Function Beep Lib "kernel32" (ByVal dwFreq As Long, ByVal dwDuration As Long) As Long
+
+Beep 500, 500
+Beep 500, 500
+error
+
+Beep 8000, 100
+click
